@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../lib/libOpenGLWindow_Debug.a"
+  "../../lib/libOpenGLWindow_Debug.pdb"
+  "CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.obj"
+  "CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.obj"
+  "CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.obj"
+  "CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.obj"
+  "CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/LoadShader.obj"
+  "CMakeFiles/OpenGLWindow.dir/LoadShader.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/OpenSans.obj"
+  "CMakeFiles/OpenGLWindow.dir/OpenSans.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/SimpleCamera.obj"
+  "CMakeFiles/OpenGLWindow.dir/SimpleCamera.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.obj"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.obj"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.obj"
+  "CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/TwFonts.obj"
+  "CMakeFiles/OpenGLWindow.dir/TwFonts.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/Win32OpenGLWindow.obj"
+  "CMakeFiles/OpenGLWindow.dir/Win32OpenGLWindow.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/Win32Window.obj"
+  "CMakeFiles/OpenGLWindow.dir/Win32Window.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/Glew/glew.obj"
+  "CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/Glew/glew.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/fontstash.obj"
+  "CMakeFiles/OpenGLWindow.dir/fontstash.obj.d"
+  "CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.obj"
+  "CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.obj.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/OpenGLWindow.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

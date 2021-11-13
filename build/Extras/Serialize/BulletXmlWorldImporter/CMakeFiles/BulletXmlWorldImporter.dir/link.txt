@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc ..\..\..\lib\libBulletXmlWorldImporter_Debug.a CMakeFiles/BulletXmlWorldImporter.dir/btBulletXmlWorldImporter.obj CMakeFiles/BulletXmlWorldImporter.dir/string_split.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxml.obj CMakeFiles/BulletXmlWorldImporter.dir/tinystr.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxmlerror.obj CMakeFiles/BulletXmlWorldImporter.dir/tinyxmlparser.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ranlib.exe ..\..\..\lib\libBulletXmlWorldImporter_Debug.a

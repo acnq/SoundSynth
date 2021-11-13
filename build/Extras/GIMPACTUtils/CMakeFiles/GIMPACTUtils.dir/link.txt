@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc ..\..\lib\libGIMPACTUtils_Debug.a CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ranlib.exe ..\..\lib\libGIMPACTUtils_Debug.a

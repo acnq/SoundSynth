@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\AppBasicExampleGui.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc CMakeFiles\AppBasicExampleGui.dir/objects.a @CMakeFiles\AppBasicExampleGui.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X86_64~2.EXE -g -D_DEBUG -Wl,--whole-archive CMakeFiles\AppBasicExampleGui.dir/objects.a -Wl,--no-whole-archive -o AppBasicExampleGui.exe -Wl,--out-implib,libAppBasicExampleGui.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AppBasicExampleGui.dir\linklibs.rsp

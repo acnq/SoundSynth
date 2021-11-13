@@ -1,0 +1,979 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "examples/SharedMemory/App_SharedMemoryPhysics_GUI.exe"
+		},
+		{
+			"path" : "examples/SharedMemory/App_SharedMemoryPhysics_GUI.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"examples/SharedMemory/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 209,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "B3_USE_STANDALONE_EXAMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_STATIC"
+				},
+				{
+					"define" : "USE_GRAPHICAL_BENCHMARK"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/Glew"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/openvr/headers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/openvr/samples/shared"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				10,
+				13,
+				14,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				45,
+				47,
+				49,
+				50,
+				52,
+				54,
+				56,
+				57,
+				58,
+				62,
+				63,
+				66,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				77,
+				78,
+				79,
+				80,
+				81
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "B3_USE_STANDALONE_EXAMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_STATIC"
+				},
+				{
+					"define" : "USE_GRAPHICAL_BENCHMARK"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/Glew"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/openvr/headers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/AAuniversityTask/Supervisor/GitRep/SRTP/SoundSynth/bullet3/examples/ThirdPartyLibs/openvr/samples/shared"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				83
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "BussIK::@fb0a509324feb996f67c"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "OpenGLWindow::@b539395cd4926c9e90a2"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletInverseDynamicsUtils::@a9f69f575b4b2158bc47"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletFileLoader::@761a50bcf213c5235c76"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletWorldImporter::@ed740352b70fd831a89a"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "Bullet3Common::@2e6e09163ea7a5f56c5d"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletInverseDynamics::@15072e80ea46bab336f3"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletCollision::@9fd34a691297a724da5d"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletDynamics::@86ce932a70e083dfbd6a"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "LinearMath::@48487d122fdd2aa49150"
+		}
+	],
+	"id" : "App_SharedMemoryPhysics_GUI::@17b7b3637f95f19fc2ca",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -D_DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBullet3Common_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletWorldImporter_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletFileLoader_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletInverseDynamicsUtils_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletInverseDynamics_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletDynamics_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletCollision_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libLinearMath_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBussIK_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBullet3Common_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletWorldImporter_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletInverseDynamicsUtils_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletInverseDynamics_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletDynamics_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBulletCollision_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libLinearMath_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libBussIK_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\lib\\libOpenGLWindow_Debug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "App_SharedMemoryPhysics_GUI",
+	"nameOnDisk" : "App_SharedMemoryPhysics_GUI.exe",
+	"paths" : 
+	{
+		"build" : "examples/SharedMemory",
+		"source" : "examples/SharedMemory"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				10,
+				13,
+				14,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				45,
+				47,
+				49,
+				50,
+				52,
+				54,
+				56,
+				57,
+				58,
+				62,
+				63,
+				66,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				77,
+				78,
+				79,
+				80,
+				81,
+				83
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				7,
+				9,
+				11,
+				12,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				42,
+				43,
+				44,
+				46,
+				48,
+				51,
+				53,
+				55,
+				59,
+				60,
+				61,
+				64,
+				65,
+				67,
+				76,
+				82
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/IKTrajectoryHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/IKTrajectoryHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientExample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsServerExample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsServerSharedMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsServerSharedMemory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientC_API.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/SharedMemoryCommands.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/SharedMemoryPublic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PosixSharedMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/Win32SharedMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/InProcessMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsDirect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsDirect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsDirectC_API.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsDirectC_API.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsLoopBack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsLoopBack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsLoopBackC_API.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsLoopBackC_API.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory_C_API.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory_C_API.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory2_C_API.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory2_C_API.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsClientSharedMemory2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/SharedMemoryCommandProcessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/SharedMemoryCommandProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/PhysicsServerCommandProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/SharedMemory/TinyRendererVisualShapeConverter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/SharedMemory/TinyRendererVisualShapeConverter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/TinyRenderer/geometry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/TinyRenderer/model.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/TinyRenderer/tgaimage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/TinyRenderer/our_gl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/TinyRenderer/TinyRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/OpenGLWindow/SimpleCamera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/OpenGLWindow/SimpleCamera.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/ConvertRigidBodies2MultiBody.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/MultiBodyCreationInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportURDFDemo/MyMultiBodyCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/MyMultiBodyCreator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/BulletUrdfImporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportURDFDemo/UrdfParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportURDFDemo/urdfStringSplit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/UrdfParser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportURDFDemo/URDF2Bullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/URDF2Bullet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportMJCFDemo/BulletMJCFImporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportMJCFDemo/BulletMJCFImporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Utils/b3ResourcePath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Utils/b3Clock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Utils/ChromeTraceUtil.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Utils/ChromeTraceUtil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/URDFImporterInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportURDFDemo/URDFJointTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportObjDemo/LoadMeshFromObj.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportSTLDemo/ImportSTLSetup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportSTLDemo/LoadMeshFromSTL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/Importers/ImportColladaDemo/ColladaGraphicsInstance.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/tinyxml/tinystr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/tinyxml/tinyxml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/tinyxml/tinyxmlerror.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/tinyxml/tinyxmlparser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ThirdPartyLibs/stb_image/stb_image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/MultiThreading/b3ThreadSupportInterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/MultiThreading/b3ThreadSupportInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/StandaloneMain/main_opengl_single_example.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ExampleBrowser/OpenGLGuiHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ExampleBrowser/GL_ShapeDrawer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/MultiThreading/b3Win32ThreadSupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/MultiThreading/b3Win32ThreadSupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "build3/bullet.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

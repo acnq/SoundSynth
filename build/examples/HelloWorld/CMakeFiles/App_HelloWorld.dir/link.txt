@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\App_HelloWorld.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe qc CMakeFiles\App_HelloWorld.dir/objects.a @CMakeFiles\App_HelloWorld.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\X86_64~2.EXE -g -D_DEBUG -Wl,--whole-archive CMakeFiles\App_HelloWorld.dir/objects.a -Wl,--no-whole-archive -o App_HelloWorld.exe -Wl,--out-implib,libApp_HelloWorld.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\App_HelloWorld.dir\linklibs.rsp
